@@ -59,3 +59,34 @@ form button {
 form button:hover {
   background: var(--primary-color-darker);
 }
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px lightgray;
+}
+
+.erase-task {
+  margin-left: 10px;
+  vertical-align: middle;
+  padding: 3px;
+  font-size: 1em;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.input-new-task {
+  width: 80%;
+}
+
+.complete {
+  color: gray;
+  text-decoration: line-through;
+}
